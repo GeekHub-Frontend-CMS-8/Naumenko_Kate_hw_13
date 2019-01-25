@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Todo List</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Todo list">
+		<meta name="keywords" content="Design, todo list">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="js/index.js"></script>
+	</head>
+	<body>
+    <div class="container">
+      <header class="header">
+        <h1 class="title">
+          My first Todo list
+        </h1>
+      </header>
+      <main>
+        <form method="get" action="" class="form">
+          <input type="text" id="todo" class="text-field">
+          <label hidden="" for="todo"></label>
+          <input type="submit" id="submit" value="Add" class="btn form__btn">
+          <label hidden="" for="submit"></label>
+        </form>
+        <ul class="todos">To Do</ul>
+        <button type="button" class="btn load-more">Load more</button>
+      </main>
+    </div>
+  </body>
+</html>

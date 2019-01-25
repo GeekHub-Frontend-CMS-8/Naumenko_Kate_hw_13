@@ -1,0 +1,10 @@
+.link {
+  text-decoration: none;
+  font: $primary-font-size $primary-font;
+  
+  &:active,
+  &:link,
+  &:visited {
+    color: $secondary-color;
+  }
+}

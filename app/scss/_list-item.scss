@@ -1,0 +1,33 @@
+.list-item {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:nth-last-child(1) {
+    padding-bottom: 20px;
+  }
+
+  &__content,
+  &__edit {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid $primary-color;
+    border-radius: 3px;
+    font: $primary-font-size $primary-font;
+  }
+
+  &__btn {
+    margin: 10px;
+
+    &:nth-last-child(1) {
+      margin-right: 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .list-item__btn {
+    margin: 15px;
+  }
+}

@@ -1,0 +1,12 @@
+.form {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+
+  &__btn {
+    margin-left: 20px;
+  }
+}

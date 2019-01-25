@@ -1,0 +1,15 @@
+.todos {
+  max-width: 300px;
+}
+
+@media only screen and (min-width: 400px) {
+  .todos {
+    max-width: 390px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .todos {
+    max-width: 550px;
+  }
+}
